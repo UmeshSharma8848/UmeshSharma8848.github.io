@@ -40,7 +40,7 @@
 *,*::before,*::after{box-sizing:border-box;}
 html{scroll-behavior:smooth;scroll-padding-top:5rem;-webkit-text-size-adjust:100%;}
 body{margin:0;font-family:var(--sans);font-size:1.0625rem;line-height:1.65;color:var(--ink);background:var(--white);-webkit-font-smoothing:antialiased;}
-img{max-width:100%;display:block;}
+img{max-width:100%;height:auto;display:block;}
 a{color:var(--blue);text-underline-offset:3px;}
 a:hover{color:var(--blue-hover);}
 :focus-visible{outline:4px solid var(--focus);outline-offset:2px;}
@@ -175,8 +175,8 @@ ul,ol{margin:0;padding:0;}
    ============================================================ */
 .site-footer{background:var(--navy);color:#fff;}
 .footer-inner{padding-block:clamp(3rem,6vw,4.5rem);}
-.contact-grid{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:clamp(2rem,6vw,4rem);align-items:center;}
-.portrait{border:6px solid #2c4b76;}
+.contact-grid{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:clamp(2rem,6vw,4rem);align-items:center;}
+.portrait{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 30%;border:6px solid #2c4b76;}
 .footer-inner h2{font-size:clamp(1.75rem,3.4vw,2.375rem);color:#fff;margin-bottom:1rem;}
 .footer-inner p{color:#dbe6f2;max-width:48ch;}
 .footer-links{display:flex;flex-wrap:wrap;gap:1.5rem 1.75rem;margin-top:2rem;list-style:none;}
@@ -492,7 +492,7 @@ ul,ol{margin:0;padding:0;}
   <div class="lane" aria-hidden="true" style="background:repeating-linear-gradient(to right,#4a7ab0 0 44px,transparent 44px 76px);"></div>
   <div class="shell footer-inner">
     <div class="contact-grid">
-      <img class="portrait" src="portrait.jpg" alt="Portrait of Umesh Sharma" width="825" height="900">
+      <img class="portrait" src="portrait.jpg" alt="Portrait of Umesh Sharma">
       <div>
         <p class="eyebrow eyebrow--light">Contact</p>
         <h2>Let's connect</h2>
