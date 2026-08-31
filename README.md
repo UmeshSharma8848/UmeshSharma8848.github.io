@@ -1,8 +1,6 @@
-# Umesh Sharma — portfolio site
+# Umesh Sharma — Portfolio Site
 
-A single-page static site. No build step, no framework, nothing to install.
-Every file sits at the top level of the repository:
-
+A portfolio site for Umesh Sharma.
 ```
 index.html          <- all the text, layout, and styling
 resume.pdf          <- the file the "Download resume" buttons hand out
